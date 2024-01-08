@@ -3,7 +3,7 @@
 /*banner section start*/
 .banner-section{
     margin: 50px 100px;
-    background-image: url("images/Banner\ Image.png");
+    background-image:url("images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 90px 0 150px 0;
@@ -90,10 +90,11 @@ main{
 .welcome-greeting{
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 900;
-    line-height: 88px;
+    line-height: 75px;
     margin-bottom: 0;
+    padding-top: 75px;
 
 }
 .party-description{
@@ -101,7 +102,7 @@ main{
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 20px; 
 }
 .join-btn{
     color: #FFF;
@@ -131,11 +132,15 @@ main{
 
 /*date related section start*/
 .date-section{
-    background-color: #ffebeb;
+    background: linear-gradient(#ffe8e8,#fff);
     text-align: center;
     padding: 50px 0 100px 0;
     margin: 100px 0;
     border-radius: 16px;
+}
+.date-section:hover{
+    border: 1px solid red;
+    outline: 1px solid skyblue;
 }
 .date-section p{
     font-family: Inter;
@@ -156,6 +161,11 @@ main{
     justify-content: space-around;
     align-items: center;
 }
+.offer-section-left{
+    padding-right: 0px;
+
+   
+}
 .offer-heading{
     color: #F00;
     font-family: Inter;
@@ -167,7 +177,7 @@ main{
 .offer-title{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
@@ -175,7 +185,6 @@ main{
     margin-bottom: 0;
 }
 .offer-description{
-    width: 393px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -183,4 +192,133 @@ main{
     line-height: 32px;
     margin-top: 10px;
 }
+
+.offer-img-container{
+    padding: 30px;
+    
+}
+.offer-img{
+    border-radius: 50%;
+    outline: 10px solid red;
+    outline-offset: 20px;
+    
+}
+
+.offer-section-right{
+    padding-left: 40px;
+    padding-top: 50px;
+   
+}
+
+.offer-2024{
+    color: #F00;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700px;
+    margin-bottom: 0;
+}
+
 /*offer related section end*/
+
+/*holiday section start*/
+/*holiday section end*/
+
+
+
+
+/*portfolio section start*/
+.holyday-section{
+    margin: 100px 0;
+}
+.holyday-section h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.holyday-section h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 10px 0 0 0;
+    }
+    .holyday-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 240px;
+    margin: 10px 0 30px 0;
+    }
+
+.row{
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+}
+.product-one{
+    width: 300px;
+    margin: 10px 0;
+}
+.product-one:hover{
+    border: 3px solid red;
+    outline: 3px solid skyblue;
+    border-radius: 16px;
+
+}
+/*portfolio section end*/
+
+
+
+/*subscribe section start*/
+.subscribe-section{
+    background-color: #fff2f2;
+    text-align: center;
+    padding: 70px 150px;
+    border-radius: 16px;
+
+}
+.subscribe-content{
+   
+   
+}
+.subscribe-content h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-family: nter;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px 0;
+}
+.input-area .input-1{
+    padding: 15px 100px 15px 15px;
+    border-style: none;
+    border-radius: 50px 0px 0px 50px;
+    margin-right: 0;
+}
+.input-area .input-2{
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    background-color: #F00;
+    font-weight: 700;
+    }
+
+/*subscribe section end*/
