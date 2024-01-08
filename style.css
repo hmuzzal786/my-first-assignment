@@ -4,11 +4,12 @@
 .banner-section{
     margin: 50px 100px;
     background-image: url("images/Banner\ Image.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 90px 0 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0 150px 0;
     border-radius: 16px;
 
+    
     
 }
 .new-year-greeting{
@@ -148,3 +149,38 @@ main{
         color: #F00;
     }
 /*date related section end*/
+
+/*offer related section end*/
+.offer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer-heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+   
+}
+.offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.offer-description{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 10px;
+}
+/*offer related section end*/
