@@ -280,10 +280,7 @@ main{
     border-radius: 16px;
 
 }
-.subscribe-content{
-   
-   
-}
+
 .subscribe-content h3{
     color: #070211;
     font-family: Merriweather;
@@ -303,16 +300,14 @@ main{
 .input-area .input-1{
     padding: 15px 100px 15px 15px;
     border-style: none;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 50px 0 0 50px;
     margin-right: 0;
 }
 .input-area .input-2{
     padding: 15px 30px;
     border-style: none;
-    border-radius: 0px 50px 50px 0px;
-    margin-left: 0;
-    color: #FFF;
-    text-align: center;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
     font-family: Inter;
     background-color: #F00;
     font-weight: 700;
