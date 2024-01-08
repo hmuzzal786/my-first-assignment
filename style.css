@@ -2,7 +2,7 @@
 
 /*banner section start*/
 .banner-section{
-    margin: 50px 140px;
+    margin: 50px 100px;
     background-image: url("images/Banner\ Image.png");
    background-repeat: no-repeat;
    background-size: cover;
@@ -37,7 +37,7 @@
 /*category section start*/
 
 main{
-    margin: 50px 140px; 
+    margin: 50px 100px; 
 }
 .category-off{
     color: #F00;
@@ -72,5 +72,79 @@ main{
 /*category section end*/
 
 /*welcome section start*/
+.welcome-section{
+    display: flex;
+    background-image: url("images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 100px;
+   
+    
+}
+.welcome-content{
+    padding:  0px 70px 0px 70px;
+}
 
+.welcome-greeting{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    margin-bottom: 0;
+
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.join-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    border: none;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: all.5s;
+    margin-top: 30px;
+}
+.join-btn:hover{
+    background-color: #e9e4e4;
+    color: #ff0000;
+    transition: all.5s;
+    border: 2px solid #ff0000;
+}
+
+.new-year-img{
+    padding: 30px;
+}
 /*welcome section end*/
+
+/*date related section start*/
+.date-section{
+    background-color: #ffebeb;
+    text-align: center;
+    padding: 50px 0 100px 0;
+    margin: 100px 0;
+    border-radius: 16px;
+}
+.date-section p{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    }
+    .date-section span{
+        color: #F00;
+    }
+/*date related section end*/
