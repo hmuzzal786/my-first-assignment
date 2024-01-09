@@ -269,7 +269,8 @@ main{
     margin: 0 auto;
 }
 .product-one{
-    width: 310px;
+    width: 330px;
+    height: 400px;
     margin: 10px 0;
 }
 .product-one:hover{
@@ -322,8 +323,9 @@ main{
     background-color: #F00;
     font-weight: 700;
 }
-
 /*subscribe section end*/
+
+
 /*footer section start*/
 .footer-section{
     background-color: #070211;
