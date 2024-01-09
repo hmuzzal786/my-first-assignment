@@ -204,8 +204,8 @@ main{
     border-radius: 50%;
     outline: 10px solid red;
     outline-offset: 20px;
-    width: 310px;
-    height: 310px;
+    width: 300px;
+    height: 300px;
     
 }
 
@@ -231,10 +231,10 @@ main{
 
 
 /*portfolio section start*/
-.holyday-section{
-    margin: 100px 0;
+.portfolio-section{
+    margin: 100px auto;
 }
-.holyday-section h4{
+.portfolio-section h4{
     color: #F00;
     font-family: Inter;
     font-size: 20px;
@@ -242,7 +242,7 @@ main{
     text-transform: uppercase;
     margin-bottom: 0;
 }
-.holyday-section h3{
+.portfolio-section h3{
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
@@ -250,7 +250,7 @@ main{
     text-transform: capitalize;
     margin: 10px 0 0 0;
     }
-    .holyday-section p{
+    .portfolio-section p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 16px;
@@ -266,7 +266,7 @@ main{
     margin: 0 auto;
 }
 .product-one{
-    width: 300px;
+    width: 310px;
     margin: 10px 0;
 }
 .product-one:hover{
