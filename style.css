@@ -169,8 +169,8 @@ main{
 .offer-heading{
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 0;
    
 }
@@ -193,6 +193,7 @@ main{
     margin-top: 10px;
 }
 
+
 .offer-img-container{
     padding: 30px;
     
@@ -201,12 +202,16 @@ main{
     border-radius: 50%;
     outline: 10px solid red;
     outline-offset: 20px;
+    width: 300px;
+    height: 300px;
     
 }
 
 .offer-section-right{
     padding-left: 40px;
     padding-top: 50px;
+    margin-right: 0;
+
    
 }
 
@@ -314,3 +319,74 @@ main{
 }
 
 /*subscribe section end*/
+/*footer section start*/
+.footer-section{
+    background-color: #070211;
+    
+}
+.footer-content{
+    margin: 50px 100px;
+    padding: 50px 0 0 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+   
+
+.address p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+.phone{
+    color: #e9e4e4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.phone img{
+    width: 24px;
+    height: 24px;
+    padding: 0 10px;
+   
+}
+
+.email{
+    color: #e9e4e4;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+.email img{
+    width: 24px;
+    height: 24px;
+    padding:0 10px;
+
+}
+
+
+.social-link{
+    margin: 0 100px;
+    text-align: center;
+}
+.social-link img{
+    padding: 15px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin:0 100px;
+    padding: 50px 0;
+}
+.copy-right p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*footer section end*/
