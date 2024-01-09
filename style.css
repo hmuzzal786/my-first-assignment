@@ -3,10 +3,11 @@
 /*banner section start*/
 .banner-section{
     margin: 50px 100px;
-    background-image:url("images/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Banner\ Image.png");
+    background-blend-mode: hard-light;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 90px 0 150px 0;
+    background-size: contain;
+    padding: 70px 0 150px 0;
     border-radius: 16px;
 
     
@@ -16,7 +17,7 @@
     color: #fff;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     margin-bottom: 0;
 
@@ -25,7 +26,7 @@
     color: #fff;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 58px;
     font-weight: 900;
     margin-top: 10px;
     max-width: 632px; 
@@ -75,7 +76,8 @@ main{
 /*welcome section start*/
 .welcome-section{
     display: flex;
-    background-image: url("images/Vectorrr.png");
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("images/Vectorrr.png");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
