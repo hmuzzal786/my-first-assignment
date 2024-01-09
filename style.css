@@ -234,6 +234,9 @@ main{
 .portfolio-section{
     margin: 100px auto;
 }
+.Portfolio-product{
+    justify-content: center;
+}
 .portfolio-section h4{
     color: #F00;
     font-family: Inter;
